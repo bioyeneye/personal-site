@@ -1,0 +1,61 @@
+layout: stacked
+style: dark
+
+plugins:
+  - jekyll-octicons
+  - jekyll-github-metadata
+  - jemoji
+
+permalink: /:year/:month/:day/:title/
+
+defaults:
+  - scope:
+      path: "" # an empty string here means all files in the project
+      type: "posts"
+    values:
+      layout: "post"
+
+projects:
+  sort_by options:
+    - stars
+  limit: 20
+  exclude:
+    archived: false
+    forks: true
+    projects:
+      - personal-site
+
+social_media:
+  # behance: your_username
+  # dribbble: your_username
+  # facebook: your_username
+  # hackerrank: your_username
+  # instagram: your_username
+  # keybase: your_username
+  linkedin: bolajioyeneye
+  # mastodon: your_username
+  medium: oyeneye_bolaji
+  # stackoverflow: your_user_id
+  # telegram: your_username
+  twitter: thecoderefiner
+  # unsplash: your_username
+  # vk: your_username
+  # website: http://your_website_url
+  # youtube: your_username
+
+topics:
+  - name: .NET
+    web_url: https://dotnet.microsoft.com/
+    image_url: https://dotnet.microsoft.com/static/images/redesign/shared/languages.svg?v=yvShriMWFIRrnXnWH5qXijlyXm2mceVpo7nF0qmS9j8
+
+  - name: .NET Microservice
+    web_url: https://dotnet.microsoft.com/learn/aspnet/microservices-architecture
+    image_url: https://dotnet.microsoft.com/static/images/illustrations/hero-extend-vside.svg?v=fhEmASl7L_z2EDxSKL3a2LdeMmcAEb6iebU7XYbzsns
+
+  - name: Spring Boot
+    web_url: https://spring.io/projects/spring-boot
+    image_url: https://spring.io/images/spring-logo-9146a4d3298760c2e7e49595184e1975.svg
+
+  - name: Sass
+    web_url: https://github.com/topics/sass
+    image_url: https://raw.githubusercontent.com/github/explore/6c6508f34230f0ac0d49e847a326429eefbfc030/topics/sass/sass.png
