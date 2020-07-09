@@ -18,7 +18,8 @@ defaults:
 projects:
   sort_by options:
     - stars
-  limit: 20
+    - pushed
+  limit: 10
   exclude:
     archived: false
     forks: true
